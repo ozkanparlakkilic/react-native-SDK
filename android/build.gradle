@@ -66,4 +66,11 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     // ironSource
     implementation 'com.ironsource.sdk:mediationsdk:7.2.4.1'
+
+    // Add AdMob and Ad Manager Network
+    implementation 'com.google.android.gms:play-services-ads:21.4.0'
+    implementation 'com.ironsource.adapters:admobadapter:4.3.34'
+    // Add Facebook Network
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.38'
+    implementation 'com.facebook.android:audience-network-sdk:6.12.0'
 }
