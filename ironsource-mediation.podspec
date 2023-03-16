@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
 
   s.dependency "React-Core"
   s.dependency "IronSourceSDK","7.2.6"
+  s.dependency "IronSourceAdMobAdapter","4.3.41.0"
+  s.dependency "IronSourceFacebookAdapter","4.3.39.0"
+  s.dependency "IronSourceUnityAdsAdapter","4.3.27.0"
 end
